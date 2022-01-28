@@ -1,1 +1,1 @@
-console.log('Welcome to Sum of Two numbers program');
+console.log('Hello World');
