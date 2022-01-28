@@ -1,3 +1,5 @@
+console.log('Welcome to Sum of Two numbers program');
+
 const num1 = 5;
 const num2 = 3;
 
