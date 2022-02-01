@@ -1,6 +1,6 @@
 var arr = [];
 while(arr.length < 5){
-    var r = Math.floor(Math.random() * 999) + 100;
+    var r = Math.floor(Math.random() * 899) + 100;
     if(arr.indexOf(r) === -1) arr.push(r);
 }
 console.log(arr);
@@ -11,7 +11,7 @@ function print2Smallest( arr, arr_size)
 
 	firstSmall=Number.MAX_VALUE ;
 	secondSmall=Number.MAX_VALUE ;
-
+	
 	for (i = 0; i < arr_size ; i ++)
 	{
 		if (arr[i] < first)
